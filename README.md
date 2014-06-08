@@ -6,7 +6,7 @@ A ruby command line application to help users manage their contacts through a RE
 
 This is an enhancement of the csv based cli - creates a reflective orm adding persistance allowing storing and managing contact data in a postgres database
 
-Uses a  reflective meta approach to consuming table column info to drive class and intance calls to the database. 
+Uses a  reflective meta approach to consuming table column info to drive class and instance calls to the database. 
 
 Limitations: 
 Currently this proof of concept is limited to enuerating String type postgres column data.  The models can easily extended to include all column data types by concurrently cataloging the column name and column data type. 
