@@ -1,10 +1,8 @@
 cli-repl-app  - Reflective ORM design
 ============
-Lighthouse Labs Week3 day2 lab exercise  - Dynamic ORM Enhancement
-
 A ruby command line application to help users manage their contacts through a REPL (Read-eval-print-loop) interface.
 
-This is an enhancement of the csv based cli - creates a reflective orm adding persistance allowing storing and managing contact data in a postgres database
+Creates a reflective orm adding persistance allowing storing and managing contact data in a postgres database
 
 Uses a  reflective meta approach to consuming table column info to drive class and instance calls to the database. 
 
